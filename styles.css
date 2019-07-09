@@ -1,0 +1,76 @@
+.background{
+  background-image: url("https://cdn.pixabay.com/photo/2014/02/27/16/10/spring-276014_960_720.jpg");
+  height: 700px;
+  width: 100% auto;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+.one{font-family: 'Lobster', cursive;
+
+  position: absolute;
+  top:140px;
+  left:22px;
+}
+.two{
+  position: absolute;
+ top: 50%;
+ left: 50%;
+ text-align: center;
+ font-family: 'Lobster', cursive;
+
+
+}
+.three{font-family: 'Lobster', cursive;
+
+  position: absolute;
+  bottom: 0;
+  left: 22px;
+}
+.navbar{
+  float: left;
+  background-color: black;
+  display: inline;
+  padding: 40px;
+  text-transform: uppercase;
+  font-size: 20px;
+  width: 100%;
+  height: 30px;
+}
+navbar a{top: 60px;
+  left: 50px;
+  color:black;
+  text-decoration: none;
+  padding-left: 30px;
+
+}
+h2 {font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+  text-align: center;
+
+
+}
+#contacts{font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-size: 25px;
+
+}
+#code {font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+}
+
+p {font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-size: 25px;
+
+}
+body{background-color: #c8dad3;
+}
+footer{font-family: 'Lobster', cursive;
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-size: 25px;}
