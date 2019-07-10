@@ -1,5 +1,7 @@
 # My-portfolio-project
 
+[link](https://ritamwaura.github.io/my-portfolio-project/)
+
 ## Description
 it talks about me
 
