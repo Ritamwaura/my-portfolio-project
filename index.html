@@ -3,61 +3,88 @@
   <head>
     <meta charset="utf-8">
     <title>portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="background">
-  <div class="one">
-    <p>Ritah</p>
-  </div>
-  <div class="two">
-    <h1>MY PORTFOLIO</h1>
-    <hr>
-    <p>BELIVE IN CODING</p>
-  </div>
-  <div class="three">
-    <p>MWAURA</p>
-  </div>
-  <div class="navbar">
-    <a href="#hobbies">hobbies</a>
-    <a href="#about me">about me</a>
-    <a href="#my projects">my projects</a>
-    <a href="#contacts">contacts</a>
+    <div class="navbar">
+      <ul>
+        <li><a href="#about">about me</a></li>
+        <li><a href="#hobbies">hobbies</a></li>
+        <li><a href="#projects">my projects</a></li>
+        <li><a href="#contacts">contacts</a></li>
+      </ul>
+    </div>
 
-  </div>
-</div
-<div id="hobbies">
-  <h2>My hobbies</h2>
-  <div id="cod">
-    eating<br>
-    watching<br>
-    walking
-  </div>
-</div>
-<div id="about me">
-  <h2>ABOUT ME</h2>
-  <p><img src="https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/24775216_382915775468954_3946069888876218933_n.jpg?_nc_cat=104&_nc_oc=AQmrig0XKa7hi04BIExzrKD10bdt6ng9xhzSHnhalPYcGkmTjyylQGWebsozI2moYrw&_nc_ht=scontent.fmba3-1.fna&oh=4d5236842b29b8f0586d3d5965aec95d&oe=5DC15C68" height="800" width="1450px">Am a student passionate in coding and want to became agreat developer</p>
+    <div class="landing">
+      <div class="overlay">
+        <h2 class="text-center text-white" id="rita">Rit<span id="color">a </span>Mw<span id="color">a</span>ur<span id="color">a </span></h2>
+        <h2 class="text-center text-white">My Portfolio</h2>
+        <h2 class="text-center text-white">Believe in coding</h2>
+        <!-- <h2 class="text-center text-white">Mwaura</h2>/ -->
+      </div>
+    </div>
+    <h1 class="text-center about-text">About me</h1>
 
-</div>
-<div id="my projects">
-  <h2>Projects</h2>
-  <p></p>
+    <div class="jumbotron" id="about">
+      <div class="left">
+        <img src="https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/62261279_662567204170475_2381415067615756288_n.jpg?_nc_cat=107&_nc_oc=AQmCG0rXTIDNJ3g1HrqbsVUyfQc8I2ct-2MK5IKu_0we9EKGKEEIzUWU3P6H-kdV2To&_nc_ht=scontent.fmba3-1.fna&oh=acfa4a63dd41bd43f9c65dc84c824a6b&oe=5DBA3D0A" alt="profile" id="profile">
+      </div>
+      <div class="right">
+        <p>Am a student passionate in coding.<br>I'm aiming to became a great developer.
+        </p>
+      </div>
+    </div>
 
-</div>
-<div id="contacts">
-  <h2>CONTACTS</h2>
-  <form class="form" action="index.html" method="post">
-    Full name:<br>
-    <input type="text" name="Full name" value="enter your name please...">
-<br><br>
-    E-mail:<br>
-    <input type="text" email="" value="enter your email please...">
-<br><br>
-    <input type="button" name="ok" value="ok">
-  </form>
-</div>
-<footer><hr>RITAH<br><hr>&copymwaura<br><hr>2019</footer>
+    <div class="hobbies">
+      <h1>Hobbies</h1>
+      <ol>
+        <li>Eating</li>
+        <li>Watching</li>
+        <li>walking</li>
+      </ol>
+    </div>
 
+    <h1 id="myprojects">My Projects</h1>
+    <div class="square">
+      <div class="card">
+        <div class="card-header text-center">Project one</div>
+        <div class="card-body"></div>
+        <div class="card-footer text-center">
+          <a href="https://github.com/Ritamwaura/delani_studio_site" target="_blank">Delani studio</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header text-center">Project two</div>
+        <div class="card-body">
+
+        </div>
+        <div class="card-footer text-center">
+          <a href="https://github.com/Ritamwaura/rita" target="_blank">Rita</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header text-center">Project three</div>
+        <div class="card-body"></div>
+        <div class="card-footer text-center">
+          <a href="https://github.com/Ritamwaura/delani_studio_site" target="_blank">Delani studio</a>
+        </div>
+      </div>
+    </div>
+
+
+      <h1 class="contact-text">Contact me</h1>
+    <div class="contacts">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" class="form-control" placeholder="Enter your Name:...">
+        <label for="email">Full Name</label>
+        <input type="email" class="form-control" placeholder="Enter your email:...">
+      </div>
+      <button type="button" name="button" class="btn btn-info">OK</button>
+    </div>
+
+    <footer>&copy; 2019 Rita Mwaura</footer>
   </body>
 </html>
