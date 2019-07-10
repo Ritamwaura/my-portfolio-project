@@ -13,3 +13,6 @@ it talks about me
 >CSS
 
 >MARKDOWN
+
+## License
+> MIT License
