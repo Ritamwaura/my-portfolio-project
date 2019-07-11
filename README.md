@@ -13,9 +13,9 @@ This is a portfolio that talks more about me
 
 ## Technologies used.
 
-> HTML
+* HTML
 
->CSS
+* CSS
 
 >MARKDOWN
 
