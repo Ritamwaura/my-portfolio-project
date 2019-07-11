@@ -17,7 +17,7 @@ This is a portfolio that talks more about me
 
 * CSS
 
->MARKDOWN
+* MARKDOWN
 
 ## License.
 > MIT License
