@@ -1,14 +1,14 @@
-# My-portfolio-project
+# My-portfolio-project.
 
 [link](https://ritamwaura.github.io/my-portfolio-project/)
 
-## Description
+## Description.
 This is a portfolio that talks more about me
 
 ## Screenshot
 <img src="https://github.com/Ritamwaura/my-portfolio-project/blob/master/shot.png?raw=true"  width="1000">
 
-## Technologies used
+## Technologies used.
 
 > HTML
 
@@ -16,5 +16,5 @@ This is a portfolio that talks more about me
 
 >MARKDOWN
 
-## License
+## License.
 > MIT License
