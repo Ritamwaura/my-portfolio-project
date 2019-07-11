@@ -2,6 +2,9 @@
 
 [link](https://ritamwaura.github.io/my-portfolio-project/)
 
+## Author
+ Rita Mwaura
+
 ## Description.
 This is a portfolio that talks more about me
 
